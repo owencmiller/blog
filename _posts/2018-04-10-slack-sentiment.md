@@ -19,8 +19,5 @@ Language Tool Kit (nltk) and the Slack Client Python API (slackclient) I was abl
 of a particular Slack channel.
 
 # The Project
-The Sentiment Analysis tool for Slack is a User Bot that can be added to Slack channels to measure the sentiment within the channel.
-Written in Python, the program initially connects to the Slack using the Real-Time Messaging API and waits until a user @'s the bot.
-This sends the user's message to the progarm, which then interprets the request and uses the Slack WebAPI to return an analysis of the 
-requested information.
+The Sentiment Analysis tool for Slack is a User Bot that can be added to Slack public channels to measure the sentiment within the channel. Written in Python, the program initially connects to the Slack using the Real-Time Messaging API and waits until a user @'s the bot. This sends the user's message to the progarm, which then interprets the request and uses the Slack WebAPI to return an analysis of the requested information. The analysis is done through the nltk library using the SentimentIntesityAnalyzer. 
 
